@@ -1,0 +1,101 @@
+html {
+    display: flex;
+    justify-content: center;
+    overflow-y: scroll;
+}
+
+body {
+    margin: 0;
+    width: 550px;
+    height: 704px;
+    border: 1px solid;
+    overflow-y: scroll;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 550px;
+    height: 55px;
+    background-color: #F55A5A;
+    font-family: Inter;
+}
+
+.header p {
+    color: white;
+    font-size: 16px;
+    padding-left: 15px;
+}
+
+.header--logo {
+    width: 24px;
+}
+
+.card--container {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    height: 168px; 
+    margin: 0;
+    padding: 15px 40px;
+    font-family: Inter;
+    font-size: 12px;
+}
+
+.card--side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10px;
+}
+
+.card--image {
+    width: 125px;
+    height: 168px;
+    border-radius: 5px;
+}
+
+.fa-location-dot {
+    color: #F55A5A;
+    padding-right: 5px;
+}
+
+.card--span {
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.card--location { 
+    margin: 0;
+    text-decoration: none;
+    color: black;
+}
+
+.card--google { 
+    margin: 0;
+    margin-left: 10px;
+    color: rgb(159, 159, 159)
+}
+
+.card--title {
+    margin: 0;
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+
+.card--date {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.card--description {
+    margin: 0;
+}
+
+.line {
+    width: 100%;
+    color: black;
+}
